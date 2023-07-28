@@ -37,7 +37,7 @@ public class TileSpawner : MonoBehaviour
     void Update()
     {        
         countSpawn++;
-        if (countSpawn == 5000)
+        if (countSpawn == 10000)
         {
             Destroy(StartChunk);
             Destroy(StartChunk2);
